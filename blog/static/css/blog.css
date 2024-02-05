@@ -1,0 +1,18 @@
+h1 {
+    margin: 0;
+    border-bottom: solid;
+}
+
+body {
+    background-color: #4db0da;
+}
+
+.post {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+}
+
+.post:hover {
+    background-color: #2a8eb9;
+}

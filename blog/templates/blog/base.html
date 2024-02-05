@@ -1,9 +1,10 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
-    <link href="{% static "css/blog.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
 <div id="content">
@@ -11,8 +12,8 @@
     {% endblock %}
 </div>
 <div id="sidebar">
-    <h2>My blog</h2>
-    <p>This is my blog.</p>
+    <h2>Мой блоґ</h2>
+    <p>Гэта мой блоґ.</p>
 </div>
 </body>
 </html>
